@@ -12,3 +12,5 @@ export PATH
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 export XDG_CONFIG_HOME="$HOME/.config"
+
+alias vim="nvim"
