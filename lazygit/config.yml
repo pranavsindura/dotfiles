@@ -2,6 +2,7 @@ os:
   editCommand: "nvim"
   editCommandTemplate: "nvr -cc q --remote {{filename}}"
 promptToReturnFromSubprocess: false
+quitOnTopLevelReturn: true
 git:
   paging:
     colorArg: always
