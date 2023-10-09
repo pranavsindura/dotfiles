@@ -1,6 +1,6 @@
 os:
   editCommand: "nvim"
-  editCommandTemplate: 'nvr -l --remote {{filename}}'
+  editCommandTemplate: "nvr -cc q --remote {{filename}}"
 promptToReturnFromSubprocess: false
 git:
   paging:
