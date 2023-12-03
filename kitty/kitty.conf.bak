@@ -2400,8 +2400,15 @@ map cmd+t       new_tab_with_cwd
 
 #: }}}
 
+
 # Custom Mappings
-map ctrl+shift+m create_marker
-map ctrl+shift+n remove_marker
+map cmd+f create_marker
+map cmd+shift+f remove_marker
 map ctrl+p scroll_to_mark prev
 map ctrl+n scroll_to_mark next
+
+
+# BEGIN_KITTY_THEME
+# Molokai
+include current-theme.conf
+# END_KITTY_THEME
