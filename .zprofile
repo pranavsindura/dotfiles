@@ -20,3 +20,4 @@ export PATH=$PATH:$ANDROID_SDK_ROOT/emulator
 export PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools
 
 alias vim="nvim"
+alias lg="lazygit"
