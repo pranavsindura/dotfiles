@@ -22,3 +22,6 @@ set-option -g display-panes-colour colour214
 
 # clock
 set-window-option -g clock-mode-colour colour208
+
+# session name
+set -g status-left-length 20
