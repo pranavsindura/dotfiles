@@ -27,3 +27,11 @@
 	required = true
 [rerere]
 	enabled = true
+[branch]
+	sort = -committerdate
+[column]
+	ui = auto
+[maintenance]
+	repo = /Users/pranavsindura/SourceCode/react-native/wallet
+	repo = /Users/pranavsindura/SourceCode/dotfiles
+	repo = /Users/pranavsindura/.config/nvim
