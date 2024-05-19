@@ -4,6 +4,7 @@
 	email = pranav.sindura@gmail.com
 [core]
     pager = delta
+    fsmonitor = true
 
 [interactive]
     diffFilter = delta --color-only
