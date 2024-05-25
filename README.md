@@ -36,6 +36,7 @@ ln -s ~/SourceCode/dotfiles/tmux tmux
   - install tpm as per default installation
 - nerd fonts
   - Hack Nerd Font Mono
+  - JetBrainsMono Nerd Font Mono
 - fzf
 - ripgrep
 - lazygit
