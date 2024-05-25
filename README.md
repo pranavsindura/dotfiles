@@ -8,7 +8,14 @@
 ## Usage
 
 ```bash
-cd $HOME/.config
+# Setup $XDG_CONFIG_HOME in your .zprofile
+...
+export $XDG_CONFIG_HOME="$HOME/.config"
+...
+```
+
+```bash
+cd $XDG_CONFIG_HOME
 ln -s ~/SourceCode/dotfiles/lazygit lazygit
 ln -s ~/SourceCode/dotfiles/ranger ranger
 ln -s ~/SourceCode/dotfiles/kitty kitty
