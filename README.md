@@ -8,7 +8,7 @@
 ## Usage
 
 ```bash
-# Setup $XDG_CONFIG_HOME in your .zprofile
+# Setup $XDG_CONFIG_HOME in your .zprofile, if it does not already exist
 ...
 export $XDG_CONFIG_HOME="$HOME/.config"
 ...
@@ -39,3 +39,4 @@ ln -s ~/SourceCode/dotfiles/tmux tmux
 - fzf
 - ripgrep
 - lazygit
+- nvm
