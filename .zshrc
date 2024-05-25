@@ -101,7 +101,14 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 eval "$(zoxide init zsh)"
 
-eval $(fzf --zsh)
+# Add FZF binds
+source <(fzf --zsh)
+
+# History Setup
+HISTFILE=~/.zsh_history
+HISTSIZE=10000
+SAVEHIST=10000
+setopt appendhistory
 
 # flashlight
 export PATH="/Users/pranavsindura/.flashlight/bin:$PATH"
