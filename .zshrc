@@ -112,7 +112,3 @@ setopt appendhistory
 
 # flashlight
 export PATH="/Users/pranavsindura/.flashlight/bin:$PATH"
-
-if [ -x $(command -v neofetch) ]; then
-  neofetch
-fi
