@@ -101,5 +101,11 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 eval "$(zoxide init zsh)"
 
+eval $(fzf --zsh)
+
 # flashlight
 export PATH="/Users/pranavsindura/.flashlight/bin:$PATH"
+
+if [ -x $(command -v neofetch) ]; then
+  neofetch
+fi

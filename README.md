@@ -29,6 +29,7 @@ ln -s ~/SourceCode/dotfiles/tmux tmux
 - alacritty
 - zsh
   - default shell
+- neofetch
 - ohmyzsh
 - zoxide
 - neovim
