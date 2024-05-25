@@ -8,8 +8,7 @@
 ## Usage
 
 ```bash
-# Make sure $XDG_CONFIG_HOME is set (set to ~/.config on my machine), put it into .zprofile
-cd ~/.config
+cd $HOME/.config
 ln -s ~/SourceCode/dotfiles/lazygit lazygit
 ln -s ~/SourceCode/dotfiles/ranger ranger
 ln -s ~/SourceCode/dotfiles/kitty kitty
@@ -27,6 +26,9 @@ ln -s ~/SourceCode/dotfiles/tmux tmux
 - zoxide
 - neovim
 - tmux
-  - install tpm under the ./tmux/plugins/ directory
+  - install tpm as per default installation
 - nerd fonts
   - Hack Nerd Font Mono
+- fzf
+- ripgrep
+- lazygit
