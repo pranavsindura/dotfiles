@@ -104,6 +104,9 @@ eval "$(zoxide init zsh)"
 # Add FZF binds
 source <(fzf --zsh)
 
+# Add ZSH Auto Suggestions
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
 # History Setup
 HISTFILE=~/.zsh_history
 HISTSIZE=10000
