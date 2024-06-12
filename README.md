@@ -21,6 +21,9 @@ ln -s ~/SourceCode/dotfiles/ranger ranger
 ln -s ~/SourceCode/dotfiles/kitty kitty
 ln -s ~/SourceCode/dotfiles/alacritty alacritty
 ln -s ~/SourceCode/dotfiles/tmux tmux
+cd ~
+ln -s ~/SourceCode/dotfiles/.gitconfig .gitconfig
+ln -s ~/SourceCode/dotfiles/themes.gitconfig themes.gitconfig
 ```
 
 ## Other Tools

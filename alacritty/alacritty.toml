@@ -8,30 +8,45 @@ size = 14
 [window]
 opacity = 0.95
 
+# KDE Breeze (Ported from Konsole)
+
 # Default colors
 [colors.primary]
-background = '#161616'
-foreground = '#f2f4f8'
+background = '#232627'
+foreground = '#fcfcfc'
+
+dim_foreground = '#eff0f1'
+bright_foreground = '#ffffff'
 
 # Normal colors
 [colors.normal]
-black   = '#282828'
-red     = '#ee5396'
-green   = '#25be6a'
-yellow  = '#08bdba'
-blue    = '#78a9ff'
-magenta = '#be95ff'
-cyan    = '#33b1ff'
-white   = '#dfdfe0'
+black = '#232627'
+red = '#ed1515'
+green = '#11d116'
+yellow = '#f67400'
+blue = '#1d99f3'
+magenta = '#9b59b6'
+cyan = '#1abc9c'
+white = '#fcfcfc'
 
 # Bright colors
 [colors.bright]
-black   = '#484848'
-red     = '#f16da6'
-green   = '#46c880'
-yellow  = '#2dc7c4'
-blue    = '#8cb6ff'
-magenta = '#c8a5ff'
-cyan    = '#52bdff'
-white   = '#e4e4e5'
+black = '#7f8c8d'
+red = '#c0392b'
+green = '#1cdc9a'
+yellow = '#fdbc4b'
+blue = '#3daee9'
+magenta = '#8e44ad'
+cyan = '#16a085'
+white = '#ffffff'
 
+# Dim colors
+[colors.dim]
+black = '#31363b'
+red = '#783228'
+green = '#17a262'
+yellow = '#b65619'
+blue = '#1b668f'
+magenta = '#614a73'
+cyan = '#186c60'
+white = '#63686d'
