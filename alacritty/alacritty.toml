@@ -1,4 +1,4 @@
-import = ['~/.config/alacritty/gruvbox_dark.toml']
+import = ['~/.config/alacritty/breeze.toml']
 
 [font]
 normal = {family = "JetBrainsMono Nerd Font Mono", style = "Regular"}
@@ -6,3 +6,6 @@ bold = {family = "JetBrainsMono Nerd Font Mono", style = "Bold"}
 italic = {family = "JetBrainsMono Nerd Font Mono", style = "Italic"}
 bold_italic = {family = "JetBrainsMono Nerd Font Mono", style = "Bold Italic"}
 size = 14
+
+[window]
+opacity = 0.92
