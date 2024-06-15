@@ -37,6 +37,7 @@ ln -s ~/SourceCode/dotfiles/themes.gitconfig themes.gitconfig
 - ohmyzsh
 - zoxide
 - neovim
+  - neovim remote - [nvr](https://github.com/mhinz/neovim-remote)
 - tmux
   - install tpm as per default installation
 - nerd fonts
