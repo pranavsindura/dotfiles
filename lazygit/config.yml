@@ -6,3 +6,5 @@ git:
   paging:
     colorArg: always
     pager: delta --line-numbers --dark --paging=never
+  log:
+    order: default
