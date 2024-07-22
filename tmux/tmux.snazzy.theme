@@ -1,7 +1,7 @@
 # Snazzy Theme for tmux
 
 # default statusbar colors
-set-option -g status-style bg=colour16,fg=colour208
+set-option -g status-style bg=colour0,fg=colour208
 
 # default window title colors
 set-window-option -g window-status-style fg=colour214,bg=default,dim
