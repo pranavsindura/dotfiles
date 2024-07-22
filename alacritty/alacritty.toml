@@ -1,4 +1,4 @@
-import = ['~/.config/alacritty/tokyo-night.toml']
+import = ['~/.config/alacritty/blood_moon.toml']
 
 [font]
 normal = {family = "JetBrainsMono Nerd Font Mono", style = "Regular"}
