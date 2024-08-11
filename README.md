@@ -22,6 +22,8 @@ ln -s ~/SourceCode/dotfiles/kitty kitty
 ln -s ~/SourceCode/dotfiles/alacritty alacritty
 ln -s ~/SourceCode/dotfiles/tmux tmux
 cd ~
+ln -s ~/SourceCode/dotfiles/.zshrc .zshrc
+ln -s ~/SourceCode/dotfiles/.zprofile .zprofile
 ln -s ~/SourceCode/dotfiles/.gitconfig .gitconfig
 ln -s ~/SourceCode/dotfiles/themes.gitconfig themes.gitconfig
 ```
@@ -41,9 +43,9 @@ ln -s ~/SourceCode/dotfiles/themes.gitconfig themes.gitconfig
 - tmux
   - install tpm as per default installation
 - nerd fonts
-  - Hack Nerd Font Mono
   - JetBrainsMono Nerd Font Mono
 - fzf
 - ripgrep
 - lazygit
 - nvm
+- yazi
