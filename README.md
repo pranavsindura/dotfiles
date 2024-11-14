@@ -1,5 +1,7 @@
 # dotfiles
 
+This is a Linux / MacOS specific project. Steps might not be useful for Windows.
+
 ## Adding and Removing Symlinks
 
 [Adding Symlinks](https://www.linode.com/docs/guides/linux-symlinks/)
@@ -35,7 +37,6 @@ ln -s ~/SourceCode/dotfiles/themes.gitconfig themes.gitconfig
 - zsh
   - default shell
   - zsh-autosuggestions
-- neofetch
 - ohmyzsh
 - zoxide
 - neovim
@@ -48,4 +49,3 @@ ln -s ~/SourceCode/dotfiles/themes.gitconfig themes.gitconfig
 - ripgrep
 - lazygit
 - nvm
-- yazi
