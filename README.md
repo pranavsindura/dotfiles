@@ -19,9 +19,6 @@ mkdir -p "$XDG_CONFIG_HOME"
 
 ```bash
 cd $XDG_CONFIG_HOME
-ln -s ~/Projects/dotfiles/lazygit lazygit
-ln -s ~/Projects/dotfiles/ranger ranger
-ln -s ~/Projects/dotfiles/kitty kitty
 ln -s ~/Projects/dotfiles/alacritty alacritty
 ln -s ~/Projects/dotfiles/tmux tmux
 cd ~
