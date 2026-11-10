@@ -12,40 +12,34 @@ This is a Linux / MacOS specific project. Steps might not be useful for Windows.
 ```bash
 # Setup $XDG_CONFIG_HOME in your .zprofile, if it does not already exist
 ...
-export $XDG_CONFIG_HOME="$HOME/.config"
+export XDG_CONFIG_HOME="$HOME/.config"
+mkdir -p "$XDG_CONFIG_HOME"
 ...
 ```
 
 ```bash
 cd $XDG_CONFIG_HOME
-ln -s ~/SourceCode/dotfiles/lazygit lazygit
-ln -s ~/SourceCode/dotfiles/ranger ranger
-ln -s ~/SourceCode/dotfiles/kitty kitty
-ln -s ~/SourceCode/dotfiles/alacritty alacritty
-ln -s ~/SourceCode/dotfiles/tmux tmux
+ln -s ~/Projects/dotfiles/lazygit lazygit
+ln -s ~/Projects/dotfiles/ranger ranger
+ln -s ~/Projects/dotfiles/kitty kitty
+ln -s ~/Projects/dotfiles/alacritty alacritty
+ln -s ~/Projects/dotfiles/tmux tmux
 cd ~
-ln -s ~/SourceCode/dotfiles/.zshrc .zshrc
-ln -s ~/SourceCode/dotfiles/.zprofile .zprofile
-ln -s ~/SourceCode/dotfiles/.gitconfig .gitconfig
-ln -s ~/SourceCode/dotfiles/themes.gitconfig themes.gitconfig
+ln -s ~/Projects/dotfiles/.zshrc .zshrc
+ln -s ~/Projects/dotfiles/.zprofile .zprofile
+ln -s ~/Projects/dotfiles/.gitconfig .gitconfig
+ln -s ~/Projects/dotfiles/themes.gitconfig themes.gitconfig
 ```
 
 ## Other Tools
 
 - git
 - alacritty
-- zsh
-  - default shell
-  - zsh-autosuggestions
 - ohmyzsh
-- zoxide
 - neovim
-  - neovim remote - [nvr](https://github.com/mhinz/neovim-remote)
-- tmux
-  - install tpm as per default installation
+- tmux + tpm
 - nerd fonts
   - JetBrainsMono Nerd Font Mono
 - fzf
 - ripgrep
-- lazygit
 - nvm
