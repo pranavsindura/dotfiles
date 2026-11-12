@@ -3,7 +3,6 @@
 This is a Linux / MacOS specific project. Steps might not be useful for Windows.
 
 ## Adding and Removing Symlinks
-
 [Adding Symlinks](https://www.linode.com/docs/guides/linux-symlinks/)
 [Removing Symlinks](https://www.linode.com/docs/guides/linux-remove-symbolic-link/)
 
